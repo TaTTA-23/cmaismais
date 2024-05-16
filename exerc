@@ -54,4 +54,9 @@ Console.WriteLine("Second decrement: " + value);
 value--;
 Console.WriteLine("Third decrement: " + value);
 
+//converter Fahrenheit em Celsius
+int fahrenheit = 94;
+decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+Console.WriteLine("The temperature is " + celsius + "Celsius." );
+
 

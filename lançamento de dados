@@ -1,0 +1,4 @@
+//Este código simula um lançamento de dados
+Random dice = new Random();
+int roll = dice.Next(1, 7);
+Console.WriteLine(roll);
